@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="10dp">
+
+    <TextView
+        android:textSize="25sp"
+        android:text="Here User Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvUserId" />
+    <TextView
+        android:textSize="25sp"
+        android:text="Here Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvId" />
+    <TextView
+        android:textSize="25sp"
+        android:text="Here Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTitle" />
+    <TextView
+        android:textSize="25sp"
+        android:text="Here Body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvBody" />
+</LinearLayout>
